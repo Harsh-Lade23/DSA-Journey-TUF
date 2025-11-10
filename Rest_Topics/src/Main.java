@@ -3,6 +3,8 @@ import binary_search.KokoAndBanana;
 import binary_search.Kth_MissingPositive;
 import binary_search.MinimumCommonValue;
 import binary_tree.*;
+import dyanamic_programming.NTo1;
+import dyanamic_programming.RemovingDigits;
 import greedy.BurstBalloons;
 import greedy.LargestString;
 import heaps.KSortedArray;
@@ -83,9 +85,8 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        int[] []arr= create2D_Array();
-        BurstBalloons bn= new BurstBalloons();
-        System.out.println(bn.findMinArrowShots(arr));
+        RemovingDigits dg=new RemovingDigits();
+        System.out.println(dg.removingDigits(25));;
 
     }
 }
